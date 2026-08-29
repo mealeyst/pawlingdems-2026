@@ -1,0 +1,63 @@
+# Copyright (C) 2020 1&1 IONOS
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: IONOS - SSO nightly\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/ionos-sso\n"
+"POT-Creation-Date: 2020-05-26 11:34:05+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+msgid "IONOS Navigation"
+msgstr "IONOS Navigation"
+
+msgid "IONOS Navigation allows you to navigate quickly to customer-related control panel pages like invoices, contract data, support … and to swiftly switch between your Managed WordPress instances."
+msgstr "IONOS Navigation ti facilita la navigazione tra le diverse sezioni del tuo account IONOS, ad es. le fatture, i dati di contratto, le pagine di supporto, ecc... e di permette di passare velocemente da un’istanza di WordPress ad un’altra."
+
+
+msgid "IONOS Chat"
+msgstr "IONOS Chat"
+
+
+msgid "Contracts & Subscriptions"
+msgstr "Contratti & abbonamenti"
+
+
+msgid "Login & Account Security"
+msgstr "Accesso & sicurezza dell'account"
+
+
+msgid "Invoices & Payment Details"
+msgstr "Fatture & dettagli di pagamento"
+
+
+msgid "Data Protection & Privacy Notice"
+msgstr "Protezione dei dati & privacy"
+
+
+msgid "Contact Details"
+msgstr "Dati di contatto"
+
+
+msgid "Profile Details"
+msgstr "Informazioni sul profilo"
+
+
+msgid "my.ionos.com"
+msgstr "my.ionos.it"
+
+msgid "Warning"
+msgstr "Attenzione"
+
+msgid "Disable"
+msgstr "Disattivare"
+
+
+msgid "You are about to disable an IONOS plugin. This may cause dependency problems to other plugins. Do you really want to do that?"
+msgstr "<p>Stai per disattivare IONOS Navigation.</p><div class='notice notice-warning inline'><p>Questo significa che non sarai più in grado di saltare direttamente dalla tua istanza di WordPress ai tuoi dati contrattuali nel pannello di controllo.</p></div><p>Se decidi comunque di disattivare e cancellare il plugin, puoi sempre reinstallarlo sotto Plugin › Aggiungi nuovo.</p>"

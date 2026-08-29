@@ -1,0 +1,62 @@
+# Copyright (C) 2020 1&1 IONOS
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: IONOS - SSO nightly\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/ionos-sso\n"
+"POT-Creation-Date: 2020-05-26 10:27:44+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+
+msgid "IONOS Navigation"
+msgstr "IONOS Navigation"
+
+msgid "IONOS Navigation allows you to navigate quickly to customer-related control panel pages like invoices, contract data, support … and to swiftly switch between your Managed WordPress instances."
+msgstr "Mit IONOS Navigation öffnest du direkt deine persönlichen IONOS Kundenkonto-Inhalte, wie z. B. Rechnungen und Vertragsdaten und wechselst schnell zwischen deinen Managed WordPress-Instanzen."
+
+msgid "IONOS Chat"
+msgstr "IONOS Chat"
+
+
+msgid "Contracts & Subscriptions"
+msgstr "Verträge & Abos"
+
+
+msgid "Login & Account Security"
+msgstr "Login & Kontosicherheit"
+
+
+msgid "Invoices & Payment Details"
+msgstr "Rechnungen & Zahlungsdetails"
+
+
+msgid "Data Protection & Privacy Notice"
+msgstr "Datenschutz & Privatsphäre"
+
+
+msgid "Contact Details"
+msgstr "Kontaktdaten"
+
+
+msgid "Profile Details"
+msgstr "Profilangaben"
+
+
+msgid "my.ionos.com"
+msgstr "mein.ionos.de"
+
+msgid "Warning"
+msgstr "Warnung"
+
+msgid "Disable"
+msgstr "Deaktivieren"
+
+msgid "You are about to disable an IONOS plugin. This may cause dependency problems to other plugins. Do you really want to do that?"
+msgstr "<p>Sie sind dabei, IONOS Navigation zu deaktivieren.</p><div class='update-nag notice notice-warning inline'>Das bedeutet, dass Sie nicht mehr die Möglichkeit haben, direkt von Ihrer WordPress-Instanz zu Ihren Vertragsdaten im Control Panel zu springen.</div><p>Sollten Sie sich dennoch entscheiden das Plugin zu deaktivieren und zu löschen, können Sie es jeder Zeit über Plugins › Installieren erneut installieren.</p>"

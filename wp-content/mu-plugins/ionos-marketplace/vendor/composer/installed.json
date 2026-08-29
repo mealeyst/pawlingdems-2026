@@ -1,0 +1,108 @@
+{
+    "packages": [
+        {
+            "name": "ionos/ionos-library",
+            "version": "2.3.0",
+            "version_normalized": "2.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/package/ionos-library.git",
+                "reference": "9fc5d75a9f3fe49f817756a5f95242d2e90bb5a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/37/packages/composer/archives/ionos/ionos-library.zip?sha=9fc5d75a9f3fe49f817756a5f95242d2e90bb5a8",
+                "reference": "9fc5d75a9f3fe49f817756a5f95242d2e90bb5a8",
+                "shasum": ""
+            },
+            "require": {
+                "ionos/plugin-state-hook-handler": "^1.0.0"
+            },
+            "require-dev": {
+                "ionos/php-coding-standard": "^1.0.0",
+                "phpunit/phpunit": "^6"
+            },
+            "type": "wordpress-dropin",
+            "installation-source": "dist",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "test": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite default"
+                ]
+            },
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "IONOS library for internal WordPress plugins",
+            "install-path": "../ionos/ionos-library"
+        },
+        {
+            "name": "ionos/plugin-state-hook-handler",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/package/plugin-state-hook-handler.git",
+                "reference": "d59d244e291cdc376d724de2d464d623c22267da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/84/packages/composer/archives/ionos/plugin-state-hook-handler.zip?sha=d59d244e291cdc376d724de2d464d623c22267da",
+                "reference": "d59d244e291cdc376d724de2d464d623c22267da",
+                "shasum": ""
+            },
+            "require-dev": {
+                "ionos/php-coding-standard": "^1.0.0"
+            },
+            "type": "wordpress-package",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Ionos\\PluginStateHookHandler\\": "src/"
+                }
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                }
+            ],
+            "install-path": "../ionos/plugin-state-hook-handler"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

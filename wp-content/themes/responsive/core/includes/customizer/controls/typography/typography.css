@@ -1,0 +1,384 @@
+/* Fix Select2 */
+body .select2-container { z-index: 99999999; }
+body .customize-control .select2-container { z-index: 1; }
+body .select2-container .select2-selection--single { height: 33px; }
+body .select2-container--default .select2-selection--single { height: 33px; border-color: #ddd; border-radius: 0; }
+body .select2-container--default .select2-selection--single .select2-selection__rendered { color: #32373c; line-height: 33px; }
+body .select2-container--default .select2-selection--single .select2-selection__arrow { height: 30px; }
+#sub-accordion-section-responsive_typography .responsive-color-control-main-wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#customize-control-responsive_body_text_color .responsive-color-control-main-wrap {
+	padding-top: 24px;
+}
+#customize-control-responsive_alt_background_color .responsive-color-control-main-wrap {
+    padding-bottom: 0;
+}
+#customize-control-responsive_all_heading_text_separator .responsive-horizontal-separator-control-wrapper
+ {
+    margin: 0;
+}
+#sub-accordion-section-responsive_typography .responsive-color-control-main-wrap .wp-picker-holder {
+    top: 58px;
+}
+
+
+.responsive-typography-settings-group-icon {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	min-height: 36px;
+	margin-right: 10px;
+}
+.responsive-typography-settings-group-icon .customize-control-title {
+	margin: 0 !important;
+}
+.responsive-select-typo-group {
+	cursor: pointer;
+}
+
+.responsive-typography-settings-group li.customize-control {
+	display: none;
+	padding-bottom: 20px !important;
+}
+.responsive-typography-settings-group.responsive-typography-settings-group-headings_typography li.customize-control:first-child {
+	margin-top: -10px;
+}
+.responsive-typography-settings-group  li.customize-control:not(:last-child) {
+	border-bottom: 0.5px solid #d0d0d060;
+}
+label.responsive_font_family,
+label.responsive_font_weight {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+}
+label.responsive_font_family,label.responsive_font_weight {
+	gap: 14px;
+}
+label.responsive_font_weight select, label.responsive_font_family select {
+    width: 228px;
+    height: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+    opacity: 1;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    box-sizing: border-box;
+}
+label.responsive_font_weight select option {
+	color: #50575E;
+	font-size: 14px;
+	line-height: 16px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+label.responsive_font_weight select option:checked {
+	background-color: #EFEFEF;
+}
+.responsive-typography-settings-group .customize-control-title {
+	margin: 0 !important;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 1;
+    color: #50575E;
+    letter-spacing: 0;
+}
+.responsive-typography-settings-group .customize-control select {
+	height: 40px;
+	padding: 8px 12px;
+	color: #50575E;
+	border: 1px solid #e2e2e2;
+	border-radius: 5px;
+}
+.responsive-font-family-select-options {
+	color: #50575E;
+	font-size: 14px;
+	line-height: 16px;
+}
+.responsive-font-family-select-options option:checked {
+	background-color: #EFEFEF;
+}
+.responsive-font-family-select-options option:hover {
+	background-color: #EFEFEF;
+}
+.responsive-customize-control-note {
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	font-style: italic;
+	font-weight: 400;
+	line-height: 14px;
+	color: #A4A4A4;
+	padding-top: 14px;
+	margin: 0;
+}
+.responsive-customize-control-note span {
+	font-weight: 600;
+}
+.responsive-typography-settings-group .customize-control.has-switchers .customize-control-title {
+	margin-top: 0;
+}
+.responsive-typography-settings-group .responsive-range-control-label {
+    margin-bottom: 8px;
+}
+.responsive-typo-font-size-label-units-wrap {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.responsive-font-units {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 6px;
+}
+.responsive-font-units .single-unit {
+	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	line-height: 16px;
+	color: #50575E;
+	cursor: pointer;
+}
+.responsive-font-units .single-unit.active {
+	font-weight: 600;
+	color: #0073aa;
+}
+.customize-control-responsive-text .control-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    box-sizing: border-box;
+}
+.customize-control-responsive-text input[type=range] {
+	background-color: rgba(0, 0, 0, 0.1);
+	height: 3px; 
+	width: 69%;
+	padding: 0;
+	cursor: pointer;
+	transition: background .5s;
+	-webkit-appearance: none;
+}
+.customize-control-responsive-text input[type=range]:focus {
+	box-shadow: none !important;
+	outline: 0 !important;
+}
+.customize-control-responsive-text input[type=range]:hover {
+	background-color: rgba(0, 0, 0, 0.15);
+}
+.customize-control-responsive-text input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	width: 15px;
+	height: 15px;
+	border: none;
+	border-radius: 15px;
+	background-color: #2e86b9;
+}
+.customize-control-responsive-text input[type=range]::-moz-range-track {
+	border: inherit;
+	background-color: transparent;
+}
+.customize-control-responsive-text input[type=range]::-ms-track {
+	border: inherit;
+	color: transparent;
+	background-color: transparent;
+}
+.customize-control-responsive-text input[type=range]::-ms-fill-lower,
+.customize-control-responsive-text input[type=range]::-ms-fill-upper {
+	background-color: transparent;
+}
+.customize-control-responsive-text input[type=range]::-ms-tooltip {
+	display: none;
+}
+.customize-control-responsive-text input[type=range]::-moz-range-thumb {
+	width: 15px;
+	height: 15px;
+	border: none;
+	border-radius: 15px;
+	background-color: #2e86b9;
+}
+.customize-control-responsive-text input[type=range]::-ms-thumb {
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	border: 0;
+	background-color: #2e86b9;
+}
+.customize-control-responsive-text input.responsive-range-input {
+    width: 27%;
+    height: 32px;
+    text-align: left;
+    margin: 0;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #50575E;
+    border: 1px solid #D2D2D2;
+}
+.responsive-typography-settings-group .responsive-selectbtn-control-wrapper .customize-control-responsive-selectbtn {
+	width: auto;
+	gap: 8px;
+}
+.responsive-typography-settings-group .responsive-selectbtn-control-wrapper {
+	justify-content: space-between;
+	align-items: center;
+}
+.responsive-typography-settings-group .customize-control-responsive-selectbtn__button {
+	padding: 11px 15px;
+	border-radius: 3px;
+}
+.responsive-typography-settings-group .responsive-selectbtn-text {
+	line-height: 16px;
+}
+.responsive-font-style-selectbtn-control .customize-control-responsive-selectbtn__button:first-child  .responsive-selectbtn-text {
+	font-style: italic;
+}
+
+#customize-control-responsive_body_typography_group {
+	padding-top: 24px;
+}
+#customize-control-responsive_headings_typography_group {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+#customize-control-responsive_heading_h1_typography_group,
+#customize-control-responsive_heading_h2_typography_group,
+#customize-control-responsive_heading_h3_typography_group,
+#customize-control-responsive_heading_h4_typography_group,
+#customize-control-responsive_heading_h5_typography_group,
+#customize-control-responsive_heading_h6_typography_group {
+	padding-top: 24px;
+}
+#sub-accordion-section-responsive_woocommerce_shop .responsive-horizontal-separator-control-wrapper,
+#sub-accordion-section-responsive_woocommerce_single_product_layout .responsive-horizontal-separator-control-wrapper {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-left: 0;
+	margin-right: 0;
+}
+#customize-control-responsive_meta_typography_group_separator .responsive-horizontal-separator-control-wrapper {
+	padding-bottom: 0;
+}
+#customize-control-responsive_product_content_shop_typography_group,
+#customize-control-responsive_single_product_page_breadcrumb_shop_typography_group
+{
+	padding-bottom: 12px;
+}
+#customize-control-responsive_breadcrumb_typography_separator .responsive-horizontal-separator-control-wrapper {
+	padding-top: 14px;
+	padding-bottom: 24px;
+}
+#customize-control-responsive_breadcrumb_typography_group {
+	padding-bottom: 12px;
+}
+#customize-control-responsive_page_title_typography_group .responsive-typography-settings-group-icon,
+#customize-control-responsive_sidebar_typography_group .responsive-typography-settings-group-icon {
+	padding-top: 24px;
+	padding-bottom: 12px;
+}
+#customize-control-responsive_footer_typography_group .responsive-typography-settings-group-icon {
+	padding-top: 10px;
+	padding-bottom: 12px;
+}
+#customize-control-page_title_typography-color .responsive-color-control-main-wrap {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+#customize-control-responsive_button_typography_group {
+	padding-top: 20px;
+}
+#customize-control-responsive_input_typography_group {
+	padding-top: 24px;
+}
+#customize-control-responsive_box_background_image .responsive-background-image-control {
+	padding-top: 12px;
+	padding-bottom: 12px;
+}
+#customize-control-responsive_site_background_image .responsive-background-image-control {
+	padding-bottom: 12px;
+}
+#customize-control-responsive_header_site_title_typo_separator .responsive-horizontal-separator-control-wrapper,
+#customize-control-responsive_content_header_heading_typography_group_separator .responsive-horizontal-separator-control-wrapper {
+	padding-top: 14px;
+	padding-bottom: 24px;
+}
+#customize-control-responsive_header_site_tagline_typo_separator .responsive-horizontal-separator-control-wrapper,
+#customize-control-responsive_content_header_description_typography_group_separator .responsive-horizontal-separator-control-wrapper {
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+#customize-control-responsive_header_site_tagline_typography_group .responsive-typography-settings-group-icon,
+	#customize-control-responsive_content_header_description_typography_group .responsive-typography-settings-group-icon {
+	padding-bottom: 12px;
+}
+#customize-control-responsive_header_menu_typography_group  {
+	padding-top: 24px;
+}
+#customize-control-responsive_header_secondary_menu_typography_group  {
+	padding-top: 14px;
+}
+
+.accordion-section .responsive-typography-settings-group-shop_page_title_shop_typography .wp-picker-holder,
+.accordion-section .responsive-typography-settings-group-product_title_shop_typography .wp-picker-holder,
+.accordion-section .responsive-typography-settings-group-single_product_title_shop_typography .wp-picker-holder,
+.accordion-section .responsive-typography-settings-group-product_price_shop_typography .wp-picker-holder,
+.accordion-section .responsive-typography-settings-group-product_price_shop_typography .wp-picker-holder,
+.accordion-section .responsive-typography-settings-group-single_product_price_shop_typography .wp-picker-holder,
+.accordion-section .responsive-typography-settings-group-product_content_shop_typography .wp-picker-holder,
+.accordion-section .responsive-typography-settings-group-single_product_content_shop_typography .wp-picker-holder {
+	top: 72px;
+}
+ul.responsive-typography-settings-group{
+	position: relative;
+	width: 260px;
+	box-sizing: border-box;
+	display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, .4);
+	gap: 14px;
+	padding: 16px;
+	border-radius: 4px;
+}
+ul.responsive-typography-settings-group::before {
+	content: "";
+	position: absolute;
+	top: -8px;
+	right: 12px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 10px solid #ffffff;
+	filter: drop-shadow(0px -2px 3px rgba(0, 0, 0, 0.2));
+}
+ul.responsive-typography-settings-group.active {
+	display: flex;
+}
+.responsive-typography-settings-group .responsive-typography-inline-container li[id$="font-style"] {
+	border: none;
+}
+.responsive-typography-settings-group .responsive-typography-inline-container li[id$="font-style"] button.selectbtn-text:first-child {
+    border-radius: 3px 0px 0px 3px;
+}
+
+.responsive-typography-settings-group .responsive-typography-inline-container li[id$="font-style"] button.selectbtn-text:last-child {
+    border-radius: 0px 3px 3px 0px;
+    border-width: 1px;
+}
+ul.responsive-typography-settings-group li.customize-control {
+	width: 228px;
+}
+.responsive-typo-font-size-label-units-wrap .responsive-reset-slider {
+	margin-top: -7px;
+}
+.responsive-typography-settings-group .responsive-typography-inline-container li.customize-control {
+    border: none;
+}

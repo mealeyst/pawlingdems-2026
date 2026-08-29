@@ -1,0 +1,51 @@
+# Copyright (C) 2020 1&1 IONOS
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: IONOS - Help <VERSION>\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/help-center-integration\n"
+"POT-Creation-Date: 2020-05-26 11:34:05+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: help-center-integration/inc/views/parts/help-integration-settings-option.php:2
+msgid "%s - Help"
+msgstr "%s - Assistance"
+
+#: help-center-integration/inc/views/parts/help-integration-settings-option.php:6
+msgid "Use %s help"
+msgstr "Utilisez l'aide %s"
+
+#. Plugin Name of the plugin/theme
+msgid "IONOS - Help"
+msgstr "IONOS - Assistance"
+
+#. Author URI of the plugin/theme
+msgid "https://www.ionos.com"
+msgstr "https://www.ionos.fr"
+
+#. Description of the plugin/theme
+msgid "WordPress IONOS - Help"
+msgstr "WordPress IONOS - Assistance"
+
+#. Author of the plugin/theme
+msgid "1&1 IONOS"
+msgstr "1&1 IONOS"
+
+msgid "https://www.ionos.com/help/"
+msgstr "https://www.ionos.fr/assistance/"
+
+msgid "Warning"
+msgstr "Avertissement"
+
+msgid "Disable"
+msgstr "Désactiver"
+
+msgid "You are about to disable an IONOS plugin. This may cause dependency problems to other plugins. Do you really want to do that?"
+msgstr "<p>Vous êtes sur le point de désactiver le plugin IONOS Help.</p><p>Ce plugin met à votre disposition des textes d'aide spécifiques à un thème dans la zone d'administration de votre compte WordPress.</p><div class='update-nag notice notice-warning inline'>Ces textes d'aide ne seront plus disponibles après la désactivation du plugin.</div><p>Si vous décidez néanmoins de désactiver et de supprimer le plugin, vous pouvez le réinstaller à tout moment via Extensions › Ajouter.</p>"

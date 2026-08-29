@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'pretty_version' => '2.2.1',
+        'version' => '2.2.1.0',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'reference' => '97af125d0334f7c87a40df7bbb8958f6faf81f1f',
+        'name' => 'ui/wordpress-help-center-integration',
+        'dev' => false,
+    ),
+    'versions' => array(
+        'ionos/ionos-library' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'type' => 'wordpress-dropin',
+            'install_path' => __DIR__ . '/../ionos/ionos-library',
+            'aliases' => array(),
+            'reference' => '9e0c910555b6f89f7c4dc108f2df2c66ab7b59b1',
+            'dev_requirement' => false,
+        ),
+        'ionos/plugin-state-hook-handler' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'type' => 'wordpress-package',
+            'install_path' => __DIR__ . '/../ionos/plugin-state-hook-handler',
+            'aliases' => array(),
+            'reference' => 'd59d244e291cdc376d724de2d464d623c22267da',
+            'dev_requirement' => false,
+        ),
+        'ui/wordpress-help-center-integration' => array(
+            'pretty_version' => '2.2.1',
+            'version' => '2.2.1.0',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'reference' => '97af125d0334f7c87a40df7bbb8958f6faf81f1f',
+            'dev_requirement' => false,
+        ),
+    ),
+);

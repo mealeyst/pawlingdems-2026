@@ -1,0 +1,950 @@
+{
+    "packages": [
+        {
+            "name": "ionos/assistant-feature-auto-update",
+            "version": "3.0.0",
+            "version_normalized": "3.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/auto-update.git",
+                "reference": "d1df1af52388931435be9919444f082f8e1e01d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/21/packages/composer/archives/ionos/assistant-feature-auto-update.zip?sha=d1df1af52388931435be9919444f082f8e1e01d2",
+                "reference": "d1df1af52388931435be9919444f082f8e1e01d2",
+                "shasum": ""
+            },
+            "require": {
+                "ionos/ionos-library": "^2.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.10",
+                "behat/mink": "^1.10",
+                "dmore/behat-chrome-extension": "^1.4",
+                "dmore/chrome-mink-driver": "^2.8",
+                "ionos/php-coding-standard": "^1.0.0",
+                "phpunit/phpunit": "^6",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "load.php",
+                    "inc/class-manager.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "Feature that forces auto updates for all plugins",
+            "install-path": "../ionos/assistant-feature-auto-update"
+        },
+        {
+            "name": "ionos/assistant-feature-banner",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/banner.git",
+                "reference": "1e48ca448e7d7dab7ed1ac4e97c23a401e0bec59"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/11/packages/composer/archives/ionos/assistant-feature-banner.zip?sha=1e48ca448e7d7dab7ed1ac4e97c23a401e0bec59",
+                "reference": "1e48ca448e7d7dab7ed1ac4e97c23a401e0bec59",
+                "shasum": ""
+            },
+            "require": {
+                "ionos/ionos-library": "^2.0.0"
+            },
+            "require-dev": {
+                "ionos/php-coding-standard": "^1.0.0",
+                "phpunit/phpunit": "^6",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "Assistant banner feature",
+            "install-path": "../ionos/assistant-feature-banner"
+        },
+        {
+            "name": "ionos/assistant-feature-blueprint",
+            "version": "1.0.5",
+            "version_normalized": "1.0.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/blueprint.git",
+                "reference": "f9a7d7399d62c74e5c863c4c49f9b9bb12e7b121"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/80/packages/composer/archives/ionos/assistant-feature-blueprint.zip?sha=f9a7d7399d62c74e5c863c4c49f9b9bb12e7b121",
+                "reference": "f9a7d7399d62c74e5c863c4c49f9b9bb12e7b121",
+                "shasum": ""
+            },
+            "require": {
+                "ionos/blueprint": "^1.0.0",
+                "ionos/ionos-library": "^2.0.0"
+            },
+            "require-dev": {
+                "ionos/php-coding-standard": "^1.1.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "install-path": "../ionos/assistant-feature-blueprint"
+        },
+        {
+            "name": "ionos/assistant-feature-descriptify",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/descriptify.git",
+                "reference": "4a82b15ec77223c881f5e0e008bd1e31f90e7ea0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/12/packages/composer/archives/ionos/assistant-feature-descriptify.zip?sha=4a82b15ec77223c881f5e0e008bd1e31f90e7ea0",
+                "reference": "4a82b15ec77223c881f5e0e008bd1e31f90e7ea0",
+                "shasum": ""
+            },
+            "require": {
+                "ionos/ionos-library": "^2.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.10",
+                "behat/mink": "^1.10",
+                "dmore/behat-chrome-extension": "^1.4",
+                "dmore/chrome-mink-driver": "^2.8",
+                "ionos/php-coding-standard": "^1.0.0",
+                "phpunit/phpunit": "^6",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "load.php",
+                    "inc/class-manager.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "Adds descriptions to other HTML content",
+            "install-path": "../ionos/assistant-feature-descriptify"
+        },
+        {
+            "name": "ionos/assistant-feature-jetpack-backup-flow",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/jetpack-backup-flow.git",
+                "reference": "4a80f668ea3f8250c24a3d893c429f2d1325b30b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/14/packages/composer/archives/ionos/assistant-feature-jetpack-backup-flow.zip?sha=4a80f668ea3f8250c24a3d893c429f2d1325b30b",
+                "reference": "4a80f668ea3f8250c24a3d893c429f2d1325b30b",
+                "shasum": ""
+            },
+            "require": {
+                "ionos/hidden-admin-page": "^1.0.0",
+                "ionos/ionos-library": "^2.0.0",
+                "ionos/login-redirect": "^1.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.10",
+                "behat/mink": "^1.10",
+                "dmore/behat-chrome-extension": "^1.4",
+                "dmore/chrome-mink-driver": "^2.8",
+                "ionos/php-coding-standard": "^1.0.0",
+                "phpunit/phpunit": "^6",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "The flow to install Jetpack Backup",
+            "install-path": "../ionos/assistant-feature-jetpack-backup-flow"
+        },
+        {
+            "name": "ionos/assistant-feature-login-redesign",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/login-redesign.git",
+                "reference": "151ee35509fadc5d049f6135a9ad4821d17fc7c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/15/packages/composer/archives/ionos/assistant-feature-login-redesign.zip?sha=151ee35509fadc5d049f6135a9ad4821d17fc7c8",
+                "reference": "151ee35509fadc5d049f6135a9ad4821d17fc7c8",
+                "shasum": ""
+            },
+            "require": {
+                "ionos/ionos-library": "^2.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.10",
+                "behat/mink": "^1.10",
+                "dmore/behat-chrome-extension": "^1.4",
+                "dmore/chrome-mink-driver": "^2.8",
+                "ionos/php-coding-standard": "^1.0.0",
+                "phpunit/phpunit": "^6",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "Redesigns the WordPress login page",
+            "install-path": "../ionos/assistant-feature-login-redesign"
+        },
+        {
+            "name": "ionos/assistant-feature-wizard",
+            "version": "2.1.5",
+            "version_normalized": "2.1.5.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/assistant-feature/wizard.git",
+                "reference": "c9a62000f9f865fa7eacb25a64bd6e60b9de39f7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/16/packages/composer/archives/ionos/assistant-feature-wizard.zip?sha=c9a62000f9f865fa7eacb25a64bd6e60b9de39f7",
+                "reference": "c9a62000f9f865fa7eacb25a64bd6e60b9de39f7",
+                "shasum": ""
+            },
+            "require": {
+                "ionos/blueprint": "^1.0.0",
+                "ionos/ionos-library": "^2.0.0",
+                "ionos/login-redirect": "^1.0.0",
+                "ionos/plugin-state-hook-handler": "^1.0.0"
+            },
+            "require-dev": {
+                "behat/behat": "^3.10",
+                "behat/mink": "^1.10",
+                "dmore/behat-chrome-extension": "^1.4",
+                "dmore/chrome-mink-driver": "^2.8",
+                "ionos/php-coding-standard": "^1.0.0",
+                "phpunit/phpunit": "^6",
+                "yoast/phpunit-polyfills": "^1.0.3"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "load.php"
+                ],
+                "classmap": [
+                    "inc/"
+                ]
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ],
+                "prepare": [
+                    "if [[ \"$OSTYPE\" == \"darwin\"* ]]; then find . -type f -name '*.php' -exec sed -i '' s/Ionos\Assistant/_Pre0\\\\\\\\Assistant/g {} +; fi",
+                    "if [[ \"$OSTYPE\" != \"darwin\"* ]]; then find . -type f -name '*.php' -exec sed -i s/Ionos\Assistant/_Pre0\\\\\\\\Assistant/g {} +; fi"
+                ],
+                "test-local": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit"
+                ],
+                "test-docker": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite default"
+                ],
+                "test-local-full": [
+                    "composer install",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ],
+                "test-docker-full": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite full"
+                ]
+            },
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "Assistant wizard feature",
+            "install-path": "../ionos/assistant-feature-wizard"
+        },
+        {
+            "name": "ionos/blueprint",
+            "version": "1.0.3",
+            "version_normalized": "1.0.3.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/package/blueprint.git",
+                "reference": "26d414fd23a6fb0271169e20b8fa9114f0f5bb46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/54/packages/composer/archives/ionos/blueprint.zip?sha=26d414fd23a6fb0271169e20b8fa9114f0f5bb46",
+                "reference": "26d414fd23a6fb0271169e20b8fa9114f0f5bb46",
+                "shasum": ""
+            },
+            "require": {
+                "opis/json-schema": "^2.3"
+            },
+            "require-dev": {
+                "ionos/php-coding-standard": "^1.0.0"
+            },
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Ionos\\Blueprint\\": "src/"
+                }
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Thomas Rose",
+                    "email": "thomas.rose@ionos.com"
+                }
+            ],
+            "install-path": "../ionos/blueprint"
+        },
+        {
+            "name": "ionos/hidden-admin-page",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/package/hidden-admin-page.git",
+                "reference": "75287ee4652c1586f8c21804d19cdc2ca3cb7fbc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/23/packages/composer/archives/ionos/hidden-admin-page.zip?sha=75287ee4652c1586f8c21804d19cdc2ca3cb7fbc",
+                "reference": "75287ee4652c1586f8c21804d19cdc2ca3cb7fbc",
+                "shasum": ""
+            },
+            "require-dev": {
+                "ionos/php-coding-standard": "^1.0.0"
+            },
+            "type": "wordpress-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Ionos\\HiddenAdminPage\\": "src/"
+                }
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                },
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                }
+            ],
+            "install-path": "../ionos/hidden-admin-page"
+        },
+        {
+            "name": "ionos/ionos-library",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/package/ionos-library.git",
+                "reference": "9e0c910555b6f89f7c4dc108f2df2c66ab7b59b1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/37/packages/composer/archives/ionos/ionos-library.zip?sha=9e0c910555b6f89f7c4dc108f2df2c66ab7b59b1",
+                "reference": "9e0c910555b6f89f7c4dc108f2df2c66ab7b59b1",
+                "shasum": ""
+            },
+            "require": {
+                "ionos/plugin-state-hook-handler": "^1.0.0"
+            },
+            "require-dev": {
+                "ionos/php-coding-standard": "^1.0.0",
+                "phpunit/phpunit": "^6"
+            },
+            "type": "wordpress-dropin",
+            "installation-source": "source",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ]
+            },
+            "scripts": {
+                "test": [
+                    "composer install",
+                    "bin/wait-for-db.sh wordpress_tests wordpress_tests db_tests",
+                    "bin/install-wp-tests.sh wordpress_tests wordpress_tests wordpress_tests db_tests",
+                    "vendor/bin/phpunit --testsuite default"
+                ]
+            },
+            "license": [
+                "GPL"
+            ],
+            "authors": [
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Gaelle Despoulain",
+                    "email": "gaelle.despoulain@ionos.com"
+                },
+                {
+                    "name": "Marko Feldmann",
+                    "email": "marko.feldmann@ionos.com"
+                },
+                {
+                    "name": "Matthias Pfefferle",
+                    "email": "matthias.pfefferle@ionos.com"
+                }
+            ],
+            "description": "IONOS library for internal WordPress plugins",
+            "install-path": "../ionos/ionos-library"
+        },
+        {
+            "name": "ionos/login-redirect",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/package/login-redirect.git",
+                "reference": "e7ddc182b0f1af74f2d5c524965a62909cac7c52"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/25/packages/composer/archives/ionos/login-redirect.zip?sha=e7ddc182b0f1af74f2d5c524965a62909cac7c52",
+                "reference": "e7ddc182b0f1af74f2d5c524965a62909cac7c52",
+                "shasum": ""
+            },
+            "require-dev": {
+                "ionos/php-coding-standard": "^1.0.0"
+            },
+            "type": "wordpress-package",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Ionos\\LoginRedirect\\": "src/"
+                }
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Angelo Cali",
+                    "email": "angelo.cali@ionos.com"
+                },
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                }
+            ],
+            "install-path": "../ionos/login-redirect"
+        },
+        {
+            "name": "ionos/plugin-state-hook-handler",
+            "version": "1.0.1",
+            "version_normalized": "1.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://gitlab.git-wp.server.lan/wp-dev/package/plugin-state-hook-handler.git",
+                "reference": "d59d244e291cdc376d724de2d464d623c22267da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://gitlab.git-wp.server.lan/api/v4/projects/84/packages/composer/archives/ionos/plugin-state-hook-handler.zip?sha=d59d244e291cdc376d724de2d464d623c22267da",
+                "reference": "d59d244e291cdc376d724de2d464d623c22267da",
+                "shasum": ""
+            },
+            "require-dev": {
+                "ionos/php-coding-standard": "^1.0.0"
+            },
+            "type": "wordpress-package",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Ionos\\PluginStateHookHandler\\": "src/"
+                }
+            },
+            "scripts": {
+                "phpcs": [
+                    "phpcs -s ."
+                ],
+                "phpcbf": [
+                    "phpcbf ."
+                ]
+            },
+            "authors": [
+                {
+                    "name": "Florian Brinkmann",
+                    "email": "florian.brinkmann@ionos.com"
+                }
+            ],
+            "install-path": "../ionos/plugin-state-hook-handler"
+        },
+        {
+            "name": "opis/json-schema",
+            "version": "2.3.0",
+            "version_normalized": "2.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opis/json-schema.git",
+                "reference": "c48df6d7089a45f01e1c82432348f2d5976f9bfb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opis/json-schema/zipball/c48df6d7089a45f01e1c82432348f2d5976f9bfb",
+                "reference": "c48df6d7089a45f01e1c82432348f2d5976f9bfb",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "opis/string": "^2.0",
+                "opis/uri": "^1.0",
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "ext-bcmath": "*",
+                "ext-intl": "*",
+                "phpunit/phpunit": "^9.0"
+            },
+            "time": "2022-01-08T20:38:03+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Opis\\JsonSchema\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sorin Sarca",
+                    "email": "sarca_sorin@hotmail.com"
+                },
+                {
+                    "name": "Marius Sarca",
+                    "email": "marius.sarca@gmail.com"
+                }
+            ],
+            "description": "Json Schema Validator for PHP",
+            "homepage": "https://opis.io/json-schema",
+            "keywords": [
+                "json",
+                "json-schema",
+                "schema",
+                "validation",
+                "validator"
+            ],
+            "support": {
+                "issues": "https://github.com/opis/json-schema/issues",
+                "source": "https://github.com/opis/json-schema/tree/2.3.0"
+            },
+            "install-path": "../opis/json-schema"
+        },
+        {
+            "name": "opis/string",
+            "version": "2.0.1",
+            "version_normalized": "2.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opis/string.git",
+                "reference": "9ebf1a1f873f502f6859d11210b25a4bf5d141e7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opis/string/zipball/9ebf1a1f873f502f6859d11210b25a4bf5d141e7",
+                "reference": "9ebf1a1f873f502f6859d11210b25a4bf5d141e7",
+                "shasum": ""
+            },
+            "require": {
+                "ext-iconv": "*",
+                "ext-json": "*",
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "time": "2022-01-14T15:42:23+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Opis\\String\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Marius Sarca",
+                    "email": "marius.sarca@gmail.com"
+                },
+                {
+                    "name": "Sorin Sarca",
+                    "email": "sarca_sorin@hotmail.com"
+                }
+            ],
+            "description": "Multibyte strings as objects",
+            "homepage": "https://opis.io/string",
+            "keywords": [
+                "multi-byte",
+                "opis",
+                "string",
+                "string manipulation",
+                "utf-8"
+            ],
+            "support": {
+                "issues": "https://github.com/opis/string/issues",
+                "source": "https://github.com/opis/string/tree/2.0.1"
+            },
+            "install-path": "../opis/string"
+        },
+        {
+            "name": "opis/uri",
+            "version": "1.1.0",
+            "version_normalized": "1.1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/opis/uri.git",
+                "reference": "0f3ca49ab1a5e4a6681c286e0b2cc081b93a7d5a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/opis/uri/zipball/0f3ca49ab1a5e4a6681c286e0b2cc081b93a7d5a",
+                "reference": "0f3ca49ab1a5e4a6681c286e0b2cc081b93a7d5a",
+                "shasum": ""
+            },
+            "require": {
+                "opis/string": "^2.0",
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "time": "2021-05-22T15:57:08+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Opis\\Uri\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Marius Sarca",
+                    "email": "marius.sarca@gmail.com"
+                },
+                {
+                    "name": "Sorin Sarca",
+                    "email": "sarca_sorin@hotmail.com"
+                }
+            ],
+            "description": "Build, parse and validate URIs and URI-templates",
+            "homepage": "https://opis.io",
+            "keywords": [
+                "URI Template",
+                "parse url",
+                "punycode",
+                "uri",
+                "uri components",
+                "url",
+                "validate uri"
+            ],
+            "support": {
+                "issues": "https://github.com/opis/uri/issues",
+                "source": "https://github.com/opis/uri/tree/1.1.0"
+            },
+            "install-path": "../opis/uri"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

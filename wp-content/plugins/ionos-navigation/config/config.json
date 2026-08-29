@@ -1,0 +1,43 @@
+{
+    "menu": {
+        "contract": {
+            "name": "Contracts & Subscriptions",
+            "domain": "my.ionos.com",
+            "parent": "ionos-global-navigation",
+            "path": "/subscriptions?filter.contract=any&filter.type=any"
+        },
+        "login": {
+            "name": "Login & Account Security",
+            "domain": "my.ionos.com",
+            "parent": "ionos-global-navigation",
+            "path": "/account-security"
+        },
+        "payment": {
+            "name": "Invoices & Payment Details",
+            "domain": "my.ionos.com",
+            "parent": "ionos-global-navigation",
+            "path": "/invoices"
+        },
+        "privacy": {
+            "name": "Data Protection & Privacy Notice",
+            "domain": "my.ionos.com",
+            "parent": "ionos-global-navigation",
+            "path": "/privacy-overview"
+        },
+        "data": {
+            "name": "Contact Details",
+            "domain": "my.ionos.com",
+            "parent": "ionos-global-navigation",
+            "path": "/address"
+        },
+        "profil": {
+            "name": "Profile Details",
+            "domain": "my.ionos.com",
+            "parent": "ionos-global-navigation",
+            "path": "/account/edit-customerprofile"
+        }
+    },
+    "chat": {
+        "enabled": 1
+    }
+}

@@ -1,0 +1,15 @@
+# Environment-specific / sensitive — never commit
+wp-config.php
+wp-config.php.bak
+.ht0g6myk.appconfig.php
+*.sql
+
+# Logs and caches
+debug.log
+error_log
+*.log
+.opcache/
+wp-content/cache/
+
+# OS / editor cruft
+.DS_Store

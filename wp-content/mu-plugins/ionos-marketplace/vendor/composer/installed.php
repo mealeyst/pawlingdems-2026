@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'ionos/ionos-marketplace',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
+        'reference' => '7f36cb13644c7f165f568d4cc349831b12c94d08',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'ionos/ionos-library' => array(
+            'pretty_version' => '2.3.0',
+            'version' => '2.3.0.0',
+            'reference' => '9fc5d75a9f3fe49f817756a5f95242d2e90bb5a8',
+            'type' => 'wordpress-dropin',
+            'install_path' => __DIR__ . '/../ionos/ionos-library',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ionos/ionos-marketplace' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => '7f36cb13644c7f165f568d4cc349831b12c94d08',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ionos/plugin-state-hook-handler' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'reference' => 'd59d244e291cdc376d724de2d464d623c22267da',
+            'type' => 'wordpress-package',
+            'install_path' => __DIR__ . '/../ionos/plugin-state-hook-handler',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);

@@ -1,0 +1,41 @@
+<?php return array(
+    'root' => array(
+        'name' => 'ionos/navigation',
+        'pretty_version' => '1.0.7',
+        'version' => '1.0.7.0',
+        'reference' => 'e28b38971afa5ec65645ad411ab1a7f0308f9b06',
+        'type' => 'wordpress-plugin',
+        'install_path' => __DIR__ . '/../../',
+        'aliases' => array(),
+        'dev' => false,
+    ),
+    'versions' => array(
+        'ionos/ionos-library' => array(
+            'pretty_version' => '2.0.2',
+            'version' => '2.0.2.0',
+            'reference' => '9e0c910555b6f89f7c4dc108f2df2c66ab7b59b1',
+            'type' => 'wordpress-dropin',
+            'install_path' => __DIR__ . '/../ionos/ionos-library',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ionos/navigation' => array(
+            'pretty_version' => '1.0.7',
+            'version' => '1.0.7.0',
+            'reference' => 'e28b38971afa5ec65645ad411ab1a7f0308f9b06',
+            'type' => 'wordpress-plugin',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'ionos/plugin-state-hook-handler' => array(
+            'pretty_version' => '1.0.1',
+            'version' => '1.0.1.0',
+            'reference' => 'd59d244e291cdc376d724de2d464d623c22267da',
+            'type' => 'wordpress-package',
+            'install_path' => __DIR__ . '/../ionos/plugin-state-hook-handler',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+    ),
+);
