@@ -1,6 +1,13 @@
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="wp-content/themes/pawling-democrats/assets/images/PawlingDemWithText-white.svg">
+    <img src="wp-content/themes/pawling-democrats/assets/images/PawlingDemWithText.svg" alt="Pawling Democrats logo" width="360">
+  </picture>
+</p>
+
 # Pawling Town Democratic Committee — Website
 
-The website for the [Pawling Town Democratic Committee](https://pawlingdems.org/), covering Pawling, New York. It's a self-hosted **WordPress** site (IONOS shared hosting) running a **custom theme**, `pawling-democrats`, built specifically for the committee rather than a stock/purchased theme.
+The website for the [Pawling Town Democratic Committee](https://pawlingdems.org/), covering Pawling, New York. It's a self-hosted **WordPress** site running a **custom theme**, `pawling-democrats`, built specifically for the committee rather than a stock/purchased theme.
 
 ## What's in this repo
 
@@ -12,7 +19,7 @@ wp-content/
   mu-plugins/                   always-on plugins, including a toggleable
                                  maintenance-mode splash page
   plugins/                      third-party plugins (Contact Form 7, Akismet,
-                                 Jetpack, IONOS's own hosting-integration
+                                 Jetpack, hosting-provider integration
                                  plugins, etc.)
   themes/                       legacy themes from the site's history,
                                  kept for reference; pawling-democrats is
@@ -41,7 +48,7 @@ A classic PHP theme (not full-site-editing) with five real WordPress Pages — H
 
 ## Deploying
 
-Production is IONOS shared hosting reached over SFTP/SSH. There's no WP-CLI preinstalled on the host, and its default `php` binary is a CGI wrapper rather than a true CLI — use the version-suffixed binary directly, e.g. `/usr/bin/php8.4-cli`, when running WP-CLI there.
+Production is shared hosting reached over SFTP/SSH. There's no WP-CLI preinstalled on the host, and its default `php` binary is a CGI wrapper rather than a true CLI — use the version-suffixed binary directly, e.g. `/usr/bin/php8.4-cli`, when running WP-CLI there.
 
 ## Maintenance mode
 
