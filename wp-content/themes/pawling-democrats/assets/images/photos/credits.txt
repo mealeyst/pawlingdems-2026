@@ -1,0 +1,22 @@
+All photos in this folder are from Wikimedia Commons, licensed CC BY-SA 3.0.
+Attribution is rendered on-page via pawlingdems_photo_credit() in functions.php.
+
+downtown-pawling.jpg
+  "Downtown Pawling.JPG" by English836
+  https://commons.wikimedia.org/wiki/File:Downtown_Pawling.JPG
+
+town-hall.jpg
+  "Pawling, NY, town hall.jpg" by Daniel Case
+  https://commons.wikimedia.org/wiki/File:Pawling,_NY,_town_hall.jpg
+
+welcome-sign.jpg
+  "Pawling, NY, welcome sign.jpg" by Daniel Case
+  https://commons.wikimedia.org/wiki/File:Pawling,_NY,_welcome_sign.jpg
+
+harlem-valley.jpg
+  "Harlem Valley view from Appalachian Trail, Pawling, NY.jpg" by Daniel Case
+  https://commons.wikimedia.org/wiki/File:Harlem_Valley_view_from_Appalachian_Trail,_Pawling,_NY.jpg
+
+akin-library.jpg
+  "Akin Free Library March 2007.jpg" by Rolf Müller
+  https://commons.wikimedia.org/wiki/File:Akin_Free_Library_March_2007.jpg

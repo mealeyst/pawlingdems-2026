@@ -13,3 +13,10 @@ wp-content/cache/
 
 # OS / editor cruft
 .DS_Store
+
+# Local dev tooling (not part of the WordPress site itself)
+/router.php
+/.claude/
+
+# Runtime-generated media (originals live in the theme's assets folder)
+wp-content/uploads/
